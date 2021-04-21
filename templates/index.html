@@ -1,0 +1,21 @@
+{% comment %} My First Website "TextUtils" {% endcomment %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyFirstWebsite</title>
+</head>
+<body>
+    <h1>Template for analysing text.Enter your text here...</h1>
+    <h1>Hello...</h1>
+    <form action = '/analyze' , method = 'get'>
+        <textarea name = 'text' style="margin: 0px; width: 670px; height: 83px;"></textarea> <br>
+        <input type = 'checkbox' , name = 'removepunc'> Remove punctuations <br>
+        <input type = 'checkbox' , name = 'removenewline'> NewLineRemove <br>
+        <input type = 'checkbox' , name = 'spaceremover'> SpaceRemover <br>
+        <input type = 'checkbox' , name = 'charcount'> CountCharacters <br>
+        <button type = 'submit'>analyse text</button>
+    </form>
+
+</body>
+</html>
